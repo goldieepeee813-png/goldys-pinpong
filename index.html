@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <title>Goldy PingPong Arcade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hud">
+    <div id="brand">GOLDY — PingPong Arcade</div>
+    <div id="mode">Mode: 1P vs AI (press M to toggle)</div>
+    <div id="score">0 : 0</div>
+  </div>
+
+  <canvas id="game" width="1280" height="720"></canvas>
+
+  <!-- Touch controls (left paddle) -->
+  <div id="controls">
+    <button id="btnUp">▲</button>
+    <button id="btnDown">▼</button>
+  </div>
+
+  <div id="hint">P1: W/S • P2: ↑/↓ • Serve/Start: Space • Toggle 1P/2P: M • Pause: P</div>
+
+  <script src="game.js"></script>
+</body>
+</html>

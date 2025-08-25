@@ -1,0 +1,10 @@
+html,body{margin:0;height:100%;background:#0b0c12;color:#f2f3f7;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif}
+#hud{position:fixed;top:10px;left:10px;right:10px;display:flex;gap:12px;align-items:center;z-index:2}
+#brand{background:#18233a;border:1px solid #263151;padding:8px 12px;border-radius:10px}
+#mode{background:#18233a;border:1px solid #263151;padding:8px 12px;border-radius:10px}
+#score{margin-left:auto;background:#18233a;border:1px solid #263151;padding:8px 12px;border-radius:10px;min-width:90px;text-align:center}
+#hint{position:fixed;left:50%;transform:translateX(-50%);bottom:12px;background:#131b2d;border:1px solid #263151;padding:6px 10px;border-radius:8px;opacity:.85}
+#game{display:block;margin:28px auto 12px auto;box-shadow:0 18px 48px rgba(0,0,0,.55);border-radius:14px;background:radial-gradient(ellipse at center,#0f1424 0,#0b0c12 70%)}
+#controls{position:fixed;left:18px;bottom:18px;display:flex;flex-direction:column;gap:14px;z-index:3}
+#controls button{width:80px;height:80px;border-radius:16px;border:1px solid #263151;background:#18233a;color:#fff;font-size:26px;box-shadow:0 10px 24px rgba(0,0,0,.4)}
+#controls button:active{transform:scale(.98)}
