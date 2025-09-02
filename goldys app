@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon GoldyPorter Games</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#FFD700">
+<style>
+    body {background:#000;color:gold;font-family:'Arial',sans-serif;text-align:center;padding:20px;margin:0;}
+    h1 {text-shadow:0 0 10px gold,0 0 20px gold;margin-bottom:30px;}
+    .games-container {display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
+    .game-card {background:#111;border:2px solid gold;border-radius:15px;padding:15px;width:180px;text-align:center;box-shadow:0 0 10px gold;transition:transform 0.3s,box-shadow 0.3s;}
+    .game-card:hover {transform:scale(1.05);box-shadow:0 0 20px gold;}
+    a {color:gold;text-decoration:none;font-weight:bold;}
+    a:hover {text-shadow:0 0 5px gold;}
+    @media(max-width:600px){.game-card{width:90%;}}
+</style>
+</head>
+<body>
+<h1>🌟 Neon GoldyPorter Games 🌟</h1>
+<div class="games-container">
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/dino-dash/" target="_blank">Dino Dash</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldy-dash/" target="_blank">Goldy Dash</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldy-snake/" target="_blank">Goldy Snake</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/swim-game/" target="_blank">Swim Game</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldys-temple-run/" target="_blank">Goldy's Temple Run</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldys-tennis/" target="_blank">Goldy's Tennis</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldys-solitaire/" target="_blank">Goldy's Solitaire</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldys-race/" target="_blank">Goldy's Race</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldy-skater/" target="_blank">Goldy Skater</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldys-soccer/" target="_blank">Goldy's Soccer</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldys-theft-auto/" target="_blank">Goldy's Theft Auto</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldy-the-ninja/" target="_blank">Goldy the Ninja</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldy-the-kid/" target="_blank">Goldy the Kid</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldy-in-space/" target="_blank">Goldy in Space</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldy-quest/" target="_blank">Goldy's Quest</a></div>
+<div class="game-card"><a href="https://goldieepeee813-png.github.io/goldys-pacman-/" target="_blank">Goldy's Pacman</a></div>
+</div>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js')
+    .then(() => console.log('Service Worker Registered'));
+}
+</script>
+</body>
+</html>
